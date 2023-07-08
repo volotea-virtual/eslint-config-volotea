@@ -1,0 +1,25 @@
+{
+    "name": "@ahdcreative/voe-eslint-config",
+    "version": "0.2.3",
+    "description": "ESLint configuration used by vVOE projects",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "eslint --config index.js"
+    },
+    "devDependencies": {
+        "eslint": "^8.44.0"
+    },
+    "peerDependencies": {
+        "eslint":"^8.44.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-plugin-import": "2.27.5",
+        "eslint-plugin-jsxally": "6.7.1",
+        "eslint-plugin-react": "7.32.2",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "@typescript-eslint/eslint-plugin": "5.61.0"
+    },
+    "engines": {
+        "node": "18.16"
+    }
+}
